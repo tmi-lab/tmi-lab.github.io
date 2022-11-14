@@ -1,2 +1,4 @@
-# barnaghi-machine-intelligence_lab.github.io
-Website for the Barnaghi Machine Intelligence Lab
+## Introduction
+Welcome to the website of our lab Barnaghi Machine Intelligence. <br/>
+
+Layout extended from [Guild Jekyll Theme](https://github.com/BrunoGrandePhD/guild)

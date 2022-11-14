@@ -1,0 +1,17 @@
+- name: Creating a 'Healthy Home' environment for people living with dementia
+  description: >
+    Creating a 'Healthy Home' environment for people living with dementia.
+    Prof Payam Barnaghi is combining engineering and technological innovation to produce a secure 'Healthy Home' system that will 
+    incorporate a range of sensors to collect data from people living with dementia in unprecedented detail. By integrating robotics and sophisticated data-analytics, 
+    this system will provide a test-bed for new approaches to address major care needs and provide personalised healthcare for these individuals.
+    The team investigates if the environmental, physiological and behavioural data collected by the Healthy Home can sensitively monitor disease progression and 
+    can be used to detect and predict adverse health conditions. They focus on automatic detection of events such as the person becoming agitated, falls, or having sleep disturbances 
+    using AI and machine learning solutions. They investigate how machine learning can help identify and predict the specific patterns of those events – and also guide a person towards 
+    an appropriate solution, such as improving their hydration or revising their medication.
+    The scientists take great care with safeguarding the privacy and security of personal data. 
+    They build on their existing 'Databox' system to develop improved ways of storing and analysing data within the home. 
+    Although they will allow the limited sharing of data centrally, this will only be after any sensitive information is removed.
+  funding: UK Dementia Research Institute
+  collaborators: TBD
+  assignees: TBD
+  photo: projects/placeholder_logo.png

@@ -1,0 +1,131 @@
+- name: Prof. Payam Barnaghi
+  is_pi: True
+  is_current: True
+  position: Professor
+  scholar: https://scholar.google.ch/citations?user=D6R2cnwAAAAJ&hl=en&oi=ao
+  researchgate: https://www.researchgate.net/profile/Payam-Barnaghi
+  github: https://github.com/PBarnaghi
+  bio: >
+    I am Professor and Chair in Machine Intelligence Applied to Medicine in the Department of Brain Sciences at Imperial College London. 
+    I am Deputy Director and Group Lead in the Care Research and Technology Centre at the UK Dementia Research Institute, 
+    an associate editor of the IEEE Transactions on Big Data and vice-chair of the IEEE SIG on Big Data Intelligent Networking.
+
+  photo: team/payam_barnaghi.jpg
+
+#-------------------------------------
+
+- name: Dr. Samaneh Kouchaki
+  is_pi: False
+  is_current: True
+  position: Lecturer in Machine Learning and Healthcare
+  # researchgate: 
+  # scholar: 
+  bio: >
+    
+  photo: team/placeholder_logo.png
+
+#-------------------------------------
+
+- name: Dr. Yu Chen
+  is_pi: False
+  is_current: True
+  position: Research Associate
+  # researchgate: 
+  # scholar: 
+  bio: >
+    
+  photo: team/placeholder_logo.png
+
+#-------------------------------------
+
+- name: Dr. Francesca Palermo
+  is_pi: False
+  is_current: True
+  position: Research Associate
+  # github: 
+  bio: >
+    
+  photo: team/placeholder_logo.png
+
+#-------------------------------------
+
+- name: Nivedita Biljani
+  is_pi: False
+  is_current: True
+  position: 
+  # github: 
+  bio: >
+    
+  photo: team/placeholder_logo.png
+
+#-------------------------------------
+
+- name: Alex Capstick
+  is_pi: False
+  is_current: True
+  position: Ph.D Candidate 
+  # github: 
+  bio: >
+    
+  photo: team/placeholder_logo.png
+
+#-------------------------------------
+
+- name: Nan Fletcher-Loyd
+  is_pi: False
+  is_current: True
+  position: Ph.D Candidate
+  # scholar:
+  # github:
+  # orcid: 
+  # researchgate:
+  # twitter: 
+  bio: >
+
+  photo: team/placeholder_logo.png
+
+#-------------------------------------
+
+- name: Fran Garcia-Moreno
+  is_pi: False
+  is_current: True
+  position: Ph.D Candidate 
+  # github: 
+  bio: >
+    
+  photo: team/placeholder_logo.png
+
+#-------------------------------------
+
+- name: Yushan Huang
+  is_pi: False
+  is_current: True
+  position: Ph.D Candidate 
+  # github: 
+  bio: >
+    
+  photo: team/placeholder_logo.png
+
+#-------------------------------------
+
+- name: Chloe Walsh
+  is_pi: False
+  is_current: True
+  position: Ph.D Candidate 
+  # github: 
+  bio: >
+    
+  photo: team/placeholder_logo.png
+
+#-------------------------------------
+
+- name: Mark Woodbridge
+  is_pi: False
+  is_current: True
+  position: Senior Software Developer
+  # github: 
+  bio: >
+    
+  photo: team/placeholder_logo.png
+
+
