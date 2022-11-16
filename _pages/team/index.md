@@ -29,7 +29,7 @@ rank: 2
         {% endif %}
     {% endfor %}
     <!-- Non-current (alumni) -->
-    {% assign alumni_size = site.data.team | size %}
+    <!-- {% assign alumni_size = site.data.team | size %}
     {% if alumni_size > 0 %}
         <h1 class="post-title">Alumni</h1>
         {% for member in site.data.team %}
@@ -39,6 +39,6 @@ rank: 2
                 {% endif %}
             {% endif %}
         {% endfor %}
-    {% endif %}
+    {% endif %} -->
     </ul>
 </div>

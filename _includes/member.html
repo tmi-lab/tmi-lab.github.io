@@ -4,8 +4,10 @@
         <img class="float-left member-photo" src="{{ member.photo | prepend: site.images_dir | prepend: site.baseurl }}">
     {% endif %}
     <p>{{ member.bio }}</p>
-    <p><strong>Keywords:</strong></p>
-    <p>{{ member.keywords }}</p>
+    {% if member.keywords %}
+        <p><strong>Keywords:</strong></p>
+        <p>{{ member.keywords }}</p>
+    {% endif %}
     {% if member.website %}
         <a href="{{member.website}}"><img src="/images/team/website.png" width="55" height="55"/></a>
     {% endif %}
