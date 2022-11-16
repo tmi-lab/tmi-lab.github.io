@@ -2,8 +2,8 @@
   is_pi: True
   is_current: True
   position: Professor
+  website: https://pbarnaghi.github.io/
   scholar: https://scholar.google.ch/citations?user=D6R2cnwAAAAJ&hl=en&oi=ao
-  researchgate: https://www.researchgate.net/profile/Payam-Barnaghi
   github: https://github.com/PBarnaghi
   bio: >
     I am Professor and Chair in Machine Intelligence Applied to Medicine in the Department of Brain Sciences at Imperial College London. 
@@ -17,7 +17,7 @@
 - name: Dr. Samaneh Kouchaki
   is_pi: False
   is_current: True
-  position: Lecturer in Machine Learning and Healthcare
+  position: Lecturer
   # researchgate: 
   # scholar: 
   bio: >
@@ -30,11 +30,16 @@
   is_pi: False
   is_current: True
   position: Research Associate
-  # researchgate: 
-  # scholar: 
+  scholar: https://scholar.google.com/citations?hl=en&user=M_lKV1sAAAAJ
+  github: https://github.com/yc14600
   bio: >
-    
-  photo: team/placeholder_logo.png
+    Yu Chen joined UKDRI and Imperial College London in 2022, as a Research Associate. 
+    She received her B.S. in Applied Electronic Technology and M.S. in Communication and Information Systems from the University of Electronic Science and Technology of China, 
+    and Ph.D. in Computer Science from the University of Bristol in 2021 under the advisement of Professor Peter Flach and Dr Tom Diethe. 
+    Her research interests lie in the fields related to continual learning, representation learning, as well as generative models, probabilistic models, and Bayesian inference.
+  keywords: >
+    Continual learning, Representation learning, Generative models, Probabilistic models, Bayesian inference
+  photo: team/yuchen.jpeg
 
 #-------------------------------------
 
@@ -42,10 +47,21 @@
   is_pi: False
   is_current: True
   position: Research Associate
-  # github: 
+  website: https://francescapalermo.github.io/
+  scholar: https://scholar.google.ch/citations?user=yB2o5DIAAAAJ&hl=en
+  github: https://github.com/francescapalermo
   bio: >
-    
-  photo: team/placeholder_logo.png
+    Francesca Palermo joined the UK Dementia Research Institute (UKDRI) and Imperial College in 2021, as a Research Associate. 
+    She received her B.Sc (2014) and M.Sc (2017) in Artificial Intelligence and Robotics from Sapienza University of Rome. 
+    In 2017, she transferred to HES-SO - Haute Ecole Spécialisée de Suisse occidentale to further her research in machine learning and computer vision techniques applied to healthcare 
+    and, more specifically, focusing on how to improve the control of arm-robotics prosthesis.
+    She was awarded a Ph.D. (2022) in Electronics Engineering from Queen Mary University of London in the Advanced Robotics lab (ARQ) 
+    as a member of the Human Augmentation & Interactive Robotics (HAIR) under the supervision of Dr. Ildar Farkhatdinov and Dr. Stefan Poslad. 
+    She is now working in the Care Research & Technology at UKDRI and her research focuses on detecting health related episodes in people living with dementia by applying 
+    recurrent deep learning models on personalised data (activity, sleep and physiologycal data).
+  keywords: > 
+    Machine Learning, Signal processing, Haptic exploration
+  photo: team/francesca_palermo.png
 
 #-------------------------------------
 
@@ -53,10 +69,15 @@
   is_pi: False
   is_current: True
   position: 
-  # github: 
+  scholar: https://scholar.google.com/citations?user=VzIxvU4AAAAJ&hl=en
+  github: https://github.com/nbijlani
   bio: >
-    
-  photo: team/placeholder_logo.png
+    My research focusses on fast, self-supervised, explainable anomaly detection for sensor data obtained from remote home health 
+    monitoring of people living with dementia. The aim is to identify adverse health events and associated digital biomarkers using movement, 
+    physiological, environmental and sleep data, to increase the effectiveness of remote health monitoring.
+  keywords: >
+    Multivariate time series anomaly detection, Matrix profile, Visual representation learning, Self-supervised, Explainable
+  photo: team/nivedita_bijlani.jpg
 
 #-------------------------------------
 
@@ -71,18 +92,33 @@
 
 #-------------------------------------
 
+- name: Hugo Dugdale
+  is_pi: False
+  is_current: True
+  position: Ph.D Candidate
+  bio: >
+
+  photo: team/placeholder_logo.png
+
+#-------------------------------------
+
 - name: Nan Fletcher-Loyd
   is_pi: False
   is_current: True
   position: Ph.D Candidate
-  # scholar:
-  # github:
-  # orcid: 
-  # researchgate:
-  # twitter: 
+  scholar: https://scholar.google.com/citations?user=rGhFl5AAAAAJ&hl=en&oi=ao 
+  github: https://github.com/NVFL
   bio: >
-
-  photo: team/placeholder_logo.png
+    Nan Fletcher-Lloyd received a BSc in Biotechnology in 2020 and an 
+    MSc in Translational Neuroscience in 2021 from Imperial College London. 
+    She is currently working towards a PhD in Clinical Medicine Research in 
+    the Brain Sciences Department at Imperial College London. Previously, her
+    work has focused on trend analysis and the development of deployable 
+    digital biomarkers. Currently, her work focuses on pathway-driven neural 
+    networks for continual few-shot learning.
+  keywords: >
+    Trend analysis, Digital biomarkers, Pathway-driven neural networks, Few-shot learning, Continual learning
+  photo: team/NFL.png
 
 #-------------------------------------
 
@@ -90,7 +126,6 @@
   is_pi: False
   is_current: True
   position: Ph.D Candidate 
-  # github: 
   bio: >
     
   photo: team/placeholder_logo.png
@@ -101,7 +136,6 @@
   is_pi: False
   is_current: True
   position: Ph.D Candidate 
-  # github: 
   bio: >
     
   photo: team/placeholder_logo.png
@@ -112,7 +146,20 @@
   is_pi: False
   is_current: True
   position: Ph.D Candidate 
-  # github: 
+  bio: >
+    Chloe joined the UKDRI and Imperial College London in 2022, as a part-time PhD student. 
+    She received her BSc in Pharmacology and her MSc in Clinical Neuroscience. 
+    She is currently working as a Clinical Research Assistant with the Surrey and Borders Partnership Foundation NHS Trust. 
+    Her research interests are centred around how we can use monitoring technology in the homes of people living with dementia to 
+    improve quality of life and reduce the burden on the NHS.
+  photo: team/chloe_walsh.jpeg
+
+#-------------------------------------
+
+- name: Poneh Mirkhani
+  is_pi: False
+  is_current: True
+  position: Administrator
   bio: >
     
   photo: team/placeholder_logo.png
@@ -123,7 +170,6 @@
   is_pi: False
   is_current: True
   position: Senior Software Developer
-  # github: 
   bio: >
     
   photo: team/placeholder_logo.png
