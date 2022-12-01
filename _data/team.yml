@@ -6,8 +6,8 @@
   scholar: https://scholar.google.ch/citations?user=D6R2cnwAAAAJ&hl=en&oi=ao
   github: https://github.com/PBarnaghi
   bio: >
-    Payam Barnaghi is a Professor and Chair in Machine Intelligence Applied to Medicine in the Department of Brain Sciences at Imperial College London. 
-    He is a Deputy Director and Group Lead in the Care Research and Technology Centre at the UK Dementia Research Institute, 
+    I am Professor and Chair in Machine Intelligence Applied to Medicine in the Department of Brain Sciences at Imperial College London. 
+    I am Deputy Director and Group Lead in the Care Research and Technology Centre at the UK Dementia Research Institute, 
     an associate editor of the IEEE Transactions on Big Data and vice-chair of the IEEE SIG on Big Data Intelligent Networking.
 
   photo: team/payam_barnaghi.jpg
@@ -20,13 +20,9 @@
   position: Lecturer
   # researchgate: 
   # scholar: 
-  scholar: https://scholar.google.co.uk/citations?user=wBXhQ-IAAAAJ&hl=en
-  github: https://github.com/skouchaki
   bio: >
-    Samaneh Kouchaki is UK DRI funded Lecturer in Machine learning for Healthcare at the Centre for 
-    Vision, Speech and Signal Processing (CVSSP) at the University of Surrey. Her research interests 
-    include machine learning, health informatics, biomedical signal processing and computational biology.
-  photo: team/samaneh_ kouchaki.png
+    
+  photo: team/placeholder_logo.png
 
 #-------------------------------------
 
@@ -57,6 +53,8 @@
   bio: >
     Francesca Palermo joined the UK Dementia Research Institute (UKDRI) and Imperial College in 2021, as a Research Associate. 
     She received her B.Sc (2014) and M.Sc (2017) in Artificial Intelligence and Robotics from Sapienza University of Rome. 
+    In 2017, she transferred to HES-SO - Haute Ecole Spécialisée de Suisse occidentale to further her research in machine learning and computer vision techniques applied to healthcare 
+    and, more specifically, focusing on how to improve the control of arm-robotics prosthesis.
     She was awarded a Ph.D. (2022) in Electronics Engineering from Queen Mary University of London in the Advanced Robotics lab (ARQ) 
     as a member of the Human Augmentation & Interactive Robotics (HAIR) under the supervision of Dr. Ildar Farkhatdinov and Dr. Stefan Poslad. 
     She is now working in the Care Research & Technology at UKDRI and her research focuses on detecting health related episodes in people living with dementia by applying 
@@ -87,19 +85,10 @@
   is_pi: False
   is_current: True
   position: Ph.D Candidate 
-  website: https://alexcapstick.github.io
-  scholar: https://scholar.google.com/citations?user=47B7qPUAAAAJ&hl=en
-  github: https://github.com/alexcapstick
+  # github: 
   bio: >
-    Alex Capstick joined Imperial College London as a PhD student in April 2021 after completing 
-    his MSc in Applied Mathematics at Imperial College London and his BSc in Mathematics at University College London.
-    At present, he is working on researching machine learning models for the extraction of clinical insights from in-home 
-    monitoring data and is interested in continual learning, meta-learning, and few-shot learning. Alex is also interested in building 
-    techniques for learning reliable machine learning models from unreliable data.
-  keywords: >
-    Machine learning for healthcare, Meta-learning, Continual learning, Few-shot learning, Learning from noisy data, Mathematics
     
-  photo: team/alex_capstick.JPG
+  photo: team/placeholder_logo.png
 
 #-------------------------------------
 
@@ -107,17 +96,9 @@
   is_pi: False
   is_current: True
   position: Ph.D Candidate
-  github: https://github.com/hugo-dugdale
   bio: >
-    Hugo Dugdale received his BSc (2019) in Mechanical Engineering from the University of Leeds, and his MSc (2020) 
-    in Biomedical Engineering from Imperial College London. He rejoined Imperial College London in 2022 as a 
-    Ph.D candidate working under the supervision of Dr. Hamed Haddadi with his Imperial-X group, and 
-    Prof. Payam Barnaghi with the UK Dementia Research Institute. His research interests are centred 
-    around the development of personalised and privacy preserving machine learning techniques, 
-    specifically to aid those suffering from Dementia.
-  keywords: >
-    Machine learning, Privacy, Security
-  photo: team/hugo_dugdale.jpeg
+
+  photo: team/placeholder_logo.png
 
 #-------------------------------------
 
