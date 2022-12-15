@@ -141,16 +141,6 @@
 
 #-------------------------------------
 
-- name: Fran Garcia-Moreno
-  is_pi: False
-  is_current: True
-  position: Ph.D Candidate 
-  bio: >
-    
-  photo: team/placeholder_logo.png
-
-#-------------------------------------
-
 - name: Yushan Huang
   is_pi: False
   is_current: True
@@ -174,23 +164,4 @@
   photo: team/chloe_walsh.jpeg
 
 #-------------------------------------
-
-- name: Poneh Mirkhani
-  is_pi: False
-  is_current: True
-  position: Administrator
-  bio: >
-    
-  photo: team/placeholder_logo.png
-
-#-------------------------------------
-
-- name: Mark Woodbridge
-  is_pi: False
-  is_current: True
-  position: Senior Software Developer
-  bio: >
-    
-  photo: team/placeholder_logo.png
-
 
