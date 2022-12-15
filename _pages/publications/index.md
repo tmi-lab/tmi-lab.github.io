@@ -5,12 +5,14 @@ permalink: /publications/
 toggle: on
 rank: 4
 ---
-\*Authors contributed equally<br>
+<!-- \*Authors contributed equally<br> -->
 
-Members of the Barnaghi Machine Intelligence laboratory indicated in **boldface**
+<!-- Members of the Barnaghi Machine Intelligence laboratory indicated in **boldface** -->
 
-## 2022
 TBD 
+{% include publications author="barnaghi;palermo" %}
+
+
 <!-- 
 []()
  -->
