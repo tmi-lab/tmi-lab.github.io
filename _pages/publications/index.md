@@ -9,8 +9,8 @@ rank: 4
 
 <!-- Members of the Barnaghi Machine Intelligence laboratory indicated in **boldface** -->
 
-TBD 
-{% include publications author="barnaghi;palermo" %}
+Below a list of our most recents publications: 
+{% include publications year="2019;2023" %}
 
 
 <!-- 
