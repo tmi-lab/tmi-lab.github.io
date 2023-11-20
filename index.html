@@ -1,11 +1,330 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="lab-photo">
-    <img src="{{ 'team/placeholder_logo.png' | prepend: site.images_dir | prepend: site.baseurl }}" />
-</div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="The lab website for the Translational Machine Intelligence Lab at Imperial College London.">
+  <meta name="author" content="Alex Capstick and Payam Barnaghi">
+  <meta property="og:title" content="TMI Lab Imperial" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description"
+    content="The lab website for the Translational Machine Intelligence Lab at Imperial College London." />
+  <meta property="og:url" content="https://tmi-lab.github.io/" />
+  <meta property="og:image" content="https://tmi-lab.github.io/assets/website_preview.jpg" />
+  <meta property="og:image:width" content="947" />
+  <meta property="og:image:height" content="562" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="shortcut icon" href="./assets/favicon.svg" />
 
-<article class="post-content">
-    Barnaghi Machine Intelligence Lab - TBA 
-</article>
+  <title>TMI Lab</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom CSS for the 'One Page Wonder' Template -->
+  <link href="css/one-page-wonder.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">TMI-Lab</a>
+        <div class="theme-button-phone">
+          <label class="theme-switch">
+            <input type="checkbox" id="checkbox1" />
+            <div class="slider round"></div>
+          </label>
+        </div>
+
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <!--<li><a href="#people">People</a></li>-->
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-button-computer">
+          <label class="theme-switch">
+            <input type="checkbox" id="checkbox2" />
+            <div class="slider round"></div>
+          </label>
+        </div>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+
+  </nav>
+
+  <div class="header-image">
+
+    <div class="headline" id="top_page">
+      <div class="container">
+        <h1>Translational Machine Intelligence Lab</h1>
+        <h2>
+          Department of Brain Sciences
+        </h2>
+        <div class="brand-logo-container">
+          <image class="brand-logo-image" src="./assets/logo.svg"></image>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /header-image -->
+
+  <div class="container">
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+    <div class="featurette" id="people">
+      <h3 class="featurette-heading">People</h3>
+      <h4>Our lab is made up the following people:</h4>
+
+
+      <div class="staff-image-container">
+        <ul class="staff-image-list">
+
+          <li>
+            <div><img class="staff-image researcher" src="./assets/marirena_bafaloukou.jpeg">
+              <p class="staff-names">Marirena Bafaloukou</p>
+            </div>
+          </li>
+
+
+          <li>
+            <div><img class="staff-image researcher" src="./assets/ruxandra_mihai.jpeg">
+              <p class="staff-names">Ruxandra Mihai</p>
+            </div>
+          </li>
+
+
+          <li>
+            <div><img class="staff-image phd" src="./assets/hugo_dugdale.jpeg">
+              <p class="staff-names">Hugo Dugdale</p>
+            </div>
+          </li>
+
+          <li>
+            <div><img class="staff-image phd" src="./assets/chloe_walsh.jpeg">
+              <p class="staff-names">Chloe Walsh</p>
+            </div>
+          </li>
+
+
+
+          <li>
+            <div><img class="staff-image phd" src="./assets/yushan_huang.jpeg">
+              <p class="staff-names">Yushan Huang</p>
+            </div>
+          </li>
+
+
+          <li>
+            <div><a href="https://www.linkedin.com/in/nan-fletcher-lloyd/" target="_blank"><img class="staff-image phd"
+                  src="./assets/nan_fletcher_lloyd.jpeg"></a>
+              <p class="staff-names">Nan Fletcher-Lloyd</p>
+            </div>
+          </li>
+
+
+          <li>
+            <div><a href="https://alexcapstick.github.io/" target="_blank"><img class="staff-image phd"
+                  src="./assets/alex_capstick.jpeg"></a>
+              <p class="staff-names">Alex Capstick</p>
+            </div>
+          </li>
+
+
+          <li>
+            <div><img class="staff-image phd" src="./assets/nivedita_bijlani.jpeg">
+              <p class="staff-names">Nivedita Bijlani</p>
+            </div>
+          </li>
+
+
+          <li>
+            <div><img class="staff-image postdoc" src="./assets/no_picture.jpeg">
+              <p class="staff-names">Tianyu Cui</p>
+            </div>
+          </li>
+
+
+
+          <li>
+            <div><img class="staff-image postdoc" src="./assets/yu_chen.jpeg">
+              <p class="staff-names">Yu Chen</p>
+            </div>
+          </li>
+
+
+
+          <li>
+            <div><img class="staff-image lecturer" src="./assets/samaneh_kouchaki.jpeg">
+              <p class="staff-names">Samaneh Kouchaki</p>
+            </div>
+          </li>
+
+          <li>
+            <div><img class="staff-image professor" src="./assets/payam_barnaghi.jpeg">
+              <p class="staff-names">Payam Barnaghi</p>
+            </div>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+
+      <div class="staff-image-container">
+        <ul class="staff-image-list">
+          <li>
+            <p class="staff-names researcher">Researcher</p>
+          </li>
+
+          <li>
+            <p class="staff-names phd">PhD Student</p>
+          </li>
+
+          <li>
+            <p class="staff-names postdoc">Postdoc</p>
+          </li>
+
+          <li>
+            <p class="staff-names lecturer">Lecturer</p>
+          </li>
+
+          <li>
+            <p class="staff-names professor">Professor</p>
+          </li>
+        </ul>
+      </div>
+
+
+
+    </div>
+
+
+
+    <hr class="featurette-divider" id="projects">
+
+    <div class="featurette">
+      <h3 class="featurette-heading">Projects</h3>
+      <div>
+        <h4>Our Focus</h4>
+        <p>Our lab focuses on the application of machine learning to healthcare. Some specific examples include:</p>
+        <ul class="project-list">
+          <li>Predicting the risk of UTI in people living with Dementia.</li>
+          <li>Understanding the eating habits of people living with Dementia.</li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+    <hr class=" featurette-divider" id="teaching">
+
+    <div class="featurette">
+      <h3 class="featurette-heading">Teaching</h3>
+      <p>
+        Our lab runs a module on Machine Learning for Neuroscience, taught to MSc Computational Neuroscience students at
+        Imperial College London.
+        The module is taught by Professor Payam Barnaghi and is run in the Spring term. More information can be found
+        at: <a href="https://ml4ns.github.io/" target="_blank">https://ml4ns.github.io/</a>
+      </p>
+
+    </div>
+
+
+
+
+
+    <hr class="featurette-divider" id="publications">
+
+    <div class="featurette">
+      <h3 class="featurette-heading">Publications</h3>
+      <div>
+        <p>Some of our key works are listed below:</p>
+        <ul class="publications-list" id="pubbib"></ul>
+        <div style="display: flex;">
+          <button id="showMoreButton">Show More</button>
+          <button id="showLessButton">Show Less</button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <hr class=" featurette-divider" id="contact">
+
+    <div class="featurette">
+      <h3 class="featurette-heading">Contact Us</h3>
+      <p>If you want to contact us for collaborations or questions, please feel free to contact us at the following:
+        <a href="mailto: p.barnaghi@imperial.ac.uk">p.barnaghi@imperial.ac.uk</a>
+      </p>
+
+    </div>
+
+
+
+
+
+    <hr class="featurette-divider" id="affiliation">
+
+    <div class="featurette">
+      <h3 class="featurette-heading">Affiliation</h3>
+      <p>This lab is affiliated with the following:</p>
+      <ul>
+        <li><a target="_blank" href="https://www.imperial.ac.uk/">Department of Brain Sciences @ Imperial College
+            London</a></li>
+        <li><a target="_blank" href="https://ukdri.ac.uk/centres/care-research-technology">Care Research and Technology
+            Centre @ The UK
+            Dementia Research Institute</a></li>
+      </ul>
+
+    </div>
+
+
+
+
+
+
+    <!-- /END THE FEATURETTES -->
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="foot-text">Thank you for reading. If you spot anything incorrect or broken on this website, please
+        contact Alex!</p>
+    </footer>
+    <!-- /END OF FOOTER -->
+
+  </div><!-- /container -->
+
+  <!-- JavaScript -->
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
