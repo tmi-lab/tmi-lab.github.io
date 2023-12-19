@@ -2172,8 +2172,18 @@ function extractBibTeXFields(entry, field) {
   const match = entry.match(new RegExp(field + '\\s*=\\s*\\{([^}]*)\\}', 'i'));
   if (match) {
     if (field === 'author') {
+      // split the author names on 'and' and when there is a comma in the name, swap the order of the names and remove the comma
+      var names = match[1].split(' and ').map(name => {
+        var [last, first] = name.split(',');
+        // if first is undefined then there was no comma in the name and we can just return the name
+        if (first === undefined) {
+          return last;
+        }
+        return `${first.trim()} ${last.trim()}`;
+      }
+      ).join(' and ');
       // Replace 'and' occurrences with a semicolon (remove space before semicolon)
-      return match[1].replace(/\s+and\s+/g, '; ');
+      return names.replace(/\s+and\s+/g, ', ');
     } else {
       return match[1];
     }
@@ -2198,9 +2208,11 @@ async function fetchBibTeXFile() {
 
     references.forEach(reference => {
       const title = extractBibTeXFields(reference, 'title');
-      const author = extractBibTeXFields(reference, 'author');
+      var author = extractBibTeXFields(reference, 'author');
       const journal = extractBibTeXFields(reference, 'journal');
       const year = extractBibTeXFields(reference, 'year');
+
+      //console.log(title, author, journal, year)
 
       const formattedReference = `${title}. <i>${author}</i>. <strong>${journal}</strong> (${year})`;
 
@@ -2212,8 +2224,6 @@ async function fetchBibTeXFile() {
     console.error('Error fetching or parsing the .bib file:', error);
   }
 }
-
-
 
 
 

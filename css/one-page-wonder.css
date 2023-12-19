@@ -156,6 +156,11 @@ body {
 	padding: 0.25em;
 }
 
+.faculty {
+	background-color: rgba(212, 149, 176, 0.75);
+	padding: 0.25em;
+}
+
 
 
 .publications-list {
