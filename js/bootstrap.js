@@ -2140,33 +2140,8 @@ $('.navbar-collapse a').click(function () {
 
 
 
-
 /**
-// Function to fetch and parse the CSV file
-async function fetchCSV() {
-  try {
-    const response = await fetch('assets/publications.txt');
-    const data = await response.text();
-    const rows = data.split('\n'); // Split CSV data into rows
-    const csvDataElement = document.getElementById('pubCSV');
-
-    for (let i = rows.length - 1; i > 0; i--) {
-      const row = rows[i];
-      if (row.trim() !== '') { // Skip empty rows
-        const columns = row.split('\t'); // Split row into columns
-        const nonEmptyColumns = columns.filter(column => column.trim() !== ''); // Filter out empty columns
-
-        if (nonEmptyColumns.length > 0) { // Display only if there are non-empty columns
-          const listItem = document.createElement('li');
-          listItem.textContent = nonEmptyColumns.join(' '); // Display non-empty columns separated by |
-          csvDataElement.appendChild(listItem);
-        }
-      }
-    }
-  } catch (error) {
-    console.error('Error fetching CSV:', error);
-  }
-}
+* Get bib file contents and display as HTML list
 */
 function extractBibTeXFields(entry, field) {
   const match = entry.match(new RegExp(field + '\\s*=\\s*\\{([^}]*)\\}', 'i'));
@@ -2211,10 +2186,20 @@ async function fetchBibTeXFile() {
       var author = extractBibTeXFields(reference, 'author');
       const journal = extractBibTeXFields(reference, 'journal');
       const year = extractBibTeXFields(reference, 'year');
+      const desc = extractBibTeXFields(reference, 'desc');
+      const url = extractBibTeXFields(reference, 'url');
+      const code = extractBibTeXFields(reference, 'code');
 
       //console.log(title, author, journal, year)
 
-      const formattedReference = `${title}. <i>${author}</i>. <strong>${journal}</strong> (${year})`;
+      const formattedTitle = `<h4 class="project-title">${title}</h4>`;
+      const formattedAuthor = `<p class="project-authors">${author}</p>`;
+      const formattedJournal = `<p class="project-destination">${journal}, ${year}</p>`;
+      const formattedDesc = `<p class="project-description">${desc}</p>`;
+      const formattedUrl = (url == '') ? '' : `<a class="project-link" href="${url}" target="_blank">Paper Link</a>`
+      const formattedCode = (code == '') ? '' : `<a class="project-link" href="${code}" target="_blank">Code Link</a>`
+
+      const formattedReference = formattedTitle + formattedAuthor + formattedJournal + formattedDesc + formattedUrl + ' ' + formattedCode;
 
       const listItem = document.createElement('li');
       listItem.innerHTML = formattedReference; // Use innerHTML to render HTML tags
@@ -2241,17 +2226,19 @@ function toggleListItems() {
   for (let i = 0; i < listItems.length; i++) {
     if (i < visibleItems) {
       console.log(listItems[i]);
-      listItems[i].style.display = 'block';
+      listItems[i].style.display = 'list-item';
     } else {
       listItems[i].style.display = 'none';
     }
   }
 
   const showMoreButton = document.getElementById('showMoreButton');
-  showMoreButton.style.opacity = (visibleItems < listItems.length) ? 1 : 0.7;
+  //showMoreButton.style.opacity = (visibleItems < listItems.length) ? 1 : 0.7;
+  showMoreButton.style.display = (visibleItems < listItems.length) ? 'block' : 'none';
 
   const showLessButton = document.getElementById('showLessButton');
-  showLessButton.style.opacity = (visibleItems > itemsToShow) ? 1 : 0.7;
+  //showLessButton.style.opacity = (visibleItems > itemsToShow) ? 1 : 0.7;
+  showLessButton.style.display = (visibleItems > itemsToShow) ? 'block' : 'none';
 }
 
 // Function to handle show more button click

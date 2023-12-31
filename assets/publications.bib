@@ -414,16 +414,15 @@
   volume    = {},
   number    = {},
   pages     = {},
-  publisher = {}
+  publisher = {},
+  url       = {https://arxiv.org/abs/2311.17560}
 }
 
-@article{Palermo_Chen_Capstick_Fletcher-Loyd_Walsh_Kouchaki_True_Balazikova_Soreq_Scott_2023,
+@article{Palermo2023,
   title        = {TIHM: An open dataset for remote healthcare monitoring in dementia},
   volume       = {10},
-  rights       = {2023 The Author(s)},
   issn         = {2052-4463},
   doi          = {10.1038/s41597-023-02519-y},
-  url          = {http://dx.doi.org/10.1038/s41597-023-02519-y},
   abstractnote = {Dementia is a progressive condition that affects cognitive and functional abilities. There is a need for reliable and continuous health monitoring of People Living with Dementia (PLWD) to improve their quality of life and support their independent living. Healthcare services often focus on addressing and treating already established health conditions that affect PLWD. Managing these conditions continuously can inform better decision-making earlier for higher-quality care management for PLWD. The Technology Integrated Health Management (TIHM) project developed a new digital platform to routinely collect longitudinal, observational, and measurement data, within the home and apply machine learning and analytical models for the detection and prediction of adverse health events affecting the well-being of PLWD. This work describes the TIHM dataset collected during the second phase (i.e., feasibility study) of the TIHM project. The data was collected from homes of 56 PLWD and associated with events and clinical observations (daily activity, physiological monitoring, and labels for health-related conditions). The study recorded an average of 50 days of data per participant, totalling 2803 days.},
   number       = {11},
   journal      = {Scientific Data},
@@ -432,25 +431,33 @@
   year         = {2023},
   month        = sep,
   pages        = {606},
-  language     = {en}
+  language     = {en},
+  desc         = {This work presents a dataset containing in-home activity, sleep, physiology and environmental measurements for up to 56 people living with dementia.},
+  url          = {https://www.nature.com/articles/s41597-023-02519-y},
+  code         = {https://github.com/PBarnaghi/TIHM-Dataset}
 }
 
 
 @article{capstick2023predictingtrunc,
   author  = {Capstick, Alexander and Barnaghi, Payam},
   title   = {Predicting Targets with Data from Non-Conforming Sources},
-  journal = {Tiny Papers Track at ICLR 2023},
-  year    = {2023}
+  journal = {Tiny Papers Track at ICLR},
+  year    = {2023},
+  desc    = {This preliminary work focused on building models that were able to learn predictive models over data sources with differing label assignments.},
+  url     = {https://dblp.org/rec/conf/iclr/CapstickB23.html},
+  code    = {https://github.com/alexcapstick/Non-Conforming-Sources}
 }
 
 
+
+
 @article{10171194,
-  author       = {Fletcher-Lloyd, Nan and Serban, Alina-Irina and Kolanko, Magdalena and Wingfield, David and Wilson, Danielle and Nilforooshan, Ramin and Barnaghi, Payam and Soreq, Eyal},
-  journal      = {IEEE Internet of Things Journal},
-  title        = {A Markov Chain Model for Identifying Changes in Daily Activity Patterns of People Living with Dementia},
-  year         = {2023},
-  howpublished = {https://arxiv.org/abs/2307.11126},
-  doi          = {10.1109/JIOT.2023.3291652}
+  author  = {Fletcher-Lloyd, Nan and Serban, Alina-Irina and Kolanko, Magdalena and Wingfield, David and Wilson, Danielle and Nilforooshan, Ramin and Barnaghi, Payam and Soreq, Eyal},
+  journal = {IEEE Internet of Things Journal},
+  title   = {A Markov Chain Model for Identifying Changes in Daily Activity Patterns of People Living with Dementia},
+  year    = {2023},
+  doi     = {10.1109/JIOT.2023.3291652},
+  url     = {https://arxiv.org/abs/2307.11126}
 }
 
 
@@ -459,5 +466,6 @@
   publisher = {Springer Science and Business Media {LLC}},
   author    = {Capstick, Alexander and Palermo, Francesca and Zakka, Kimberley and Fletcher-Lloyd, Nan and Walsh, Chloe and Cui, Tianyu and Kouchaki, Samaneh and Jackson, Raphaella and Tran, Martin and Crone, Michael and Jensen, Kirsten and Freemont, Paul and Vaidyanathan, Ravi and Kolanko, Magdalena and True, Jessica and Daniels, Sarah and Nilforooshan, Ramin and Barnaghi, Payam},
   title     = {Digital Remote Monitoring for Screening and Early Detection of Urinary Tract Infections},
-  journal   = {npj Digital Medicine (in press)}
+  journal   = {npj Digital Medicine (in press)},
+  desc      = {We use machine learning and symptom-led feature engineering to build a UTI risk model based on in-home activity and nocturnal physiology.}
 }
