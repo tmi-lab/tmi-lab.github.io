@@ -84,9 +84,9 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding-left: 5%;
-	padding-right: 5%;
-	gap: 3%;
+	padding-left: 0%;
+	padding-right: 0%;
+	gap: 1%;
 }
 
 .staff-image-list>li {
