@@ -86,11 +86,11 @@ body {
 	justify-content: center;
 	padding-left: 0%;
 	padding-right: 0%;
-	gap: 3%;
+	gap: 1%;
 }
 
 .staff-image-list>li {
-	width: 12%;
+	width: 10%;
 	margin: 0 0;
 	min-width: 100px;
 	text-align: center;
@@ -99,7 +99,7 @@ body {
 .staff-image {
 	align-items: center;
 	width: 100%;
-	border-radius: 40%;
+	border-radius: 25%;
 	max-height: 150px;
 	max-width: 150px;
 	min-width: 75px;
