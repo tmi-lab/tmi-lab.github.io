@@ -2213,7 +2213,7 @@ async function fetchBibTeXFile() {
 
 
 let showMore = false;
-const itemsToShow = 5;
+const itemsToShow = 8;
 let visibleItems = itemsToShow;
 
 
