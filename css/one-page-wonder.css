@@ -145,6 +145,10 @@ body {
 	padding: 0.25em;
 }
 
+.cophd {
+	background-color: rgba(89, 221, 217, 0.75);
+	padding: 0.25em;
+}
 
 .postdoc {
 	background-color: rgba(255, 160, 122, 0.75);
