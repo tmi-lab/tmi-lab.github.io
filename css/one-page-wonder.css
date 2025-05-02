@@ -124,6 +124,7 @@ body {
 
 .role-label {
 	border-radius: 1em;
+	font-size: smaller;
 }
 
 .project-list {
@@ -598,6 +599,10 @@ footer {
 		font-size: 9px;
 	}
 
+	.role-label {
+		font-size: 10px;
+	}
+
 
 }
 
@@ -624,6 +629,10 @@ footer {
 
 	.staff-image-list>li {
 		width: 18%;
+	}
+
+	.role-label {
+		font-size: 10px;
 	}
 
 
